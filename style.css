@@ -1,0 +1,167 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0%;
+    overflow-x: hidden;
+    /* border: 5px solid yellow; */
+}
+
+section {
+    height: 620px;
+    /* border: 5px solid; */
+    /* display: flex; */
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #575757;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #0b0e17;
+}
+
+button {
+    padding: 15px 25px;
+    background-image: linear-gradient(45deg, #f9994e, #f04d34);
+    border: 0px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+footer {
+    padding-top: 2%;
+    margin-top: 10%;
+    text-align: center;
+    background-color: #0b0e17;
+    height: 250px;
+}
+
+footer p {
+    color: white;
+}
+
+.orange-highlight {
+    color: #f9994e;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    align-items: center;
+    padding-left: 2%;
+    margin-left: 5%;
+    /* border: 5px dashed; */
+}
+
+.half-width img {
+    width: 100%;
+    /* border: 5px solid red; */
+}
+
+.order-food h1 {
+    color: #575757;
+    height: 25px;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.order-food p {
+    padding-top: 20px;
+    width: 75%;
+    color: gray;
+    /* border: 5px solid; */
+}
+
+.text {
+    margin-top: 10%;
+}
+
+.about img {
+    width: 70%;
+}
+
+.about p {
+    width: 75%;
+}
+
+.about {
+    background-image: url("images/about-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.about div {
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.about button {
+    margin-top: 10%;
+}
+
+.recipe-text {
+    text-align: center;
+    align-content: center;
+    /* border: 5px solid; */
+    width: 50%;
+    padding: 0% 25%;
+}
+
+.recipe-des {
+    width: 22%;
+    border-radius: 20px;
+    /* border: 5px dashed red; */
+    float: left;
+    padding: 1%;
+    margin-left: 4%;
+    background-color: white;
+    box-shadow: 2px 2px 10px 4px lightgrey;
+}
+
+.recipe-des img {
+    width: 100%;
+}
+
+.recipe-images {
+    margin: 3% 5%;
+    width: 100%;
+}
+
+.stat {
+    height: 150px;
+    width: 80%;
+    /* padding: 2% 8%; */
+    margin: 2% 9%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px 10px lightgrey;
+}
+
+.stat-des {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-left: 2%;
+    /* border: 5px solid red; */
+}
